@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "getbrew"
+version = "0.1.0"
+description = ""
+authors = ["Rohan Sarvaria <rsarvaria@uwaterloo.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+[tool.poetry.scripts]
+getbrew = "get_brew"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
